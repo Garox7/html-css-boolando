@@ -11,6 +11,7 @@ header {
     padding: 0 30px;
     background-color: #ff6801;
     position: fixed;
+    z-index: 10;
 }
 .row {
     max-width: 1180px;
@@ -44,4 +45,130 @@ header .h-icon {
 header .h-icon i {
     padding: 5px;
     cursor: pointer;
+}
+/* ------- MAIN ------- */
+
+main.items-container {
+    padding: 200px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    row-gap: 40px;
+}
+
+main.items-container .item-col {
+    flex: 1 0 320px;
+}
+
+.item {
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.item .heart {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    background-color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.item .heart:hover {
+    color: red;
+}
+
+.item .flag {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+}
+
+.item .flag .discount {
+    background-color: red;
+    padding: 4px 8px;
+}
+
+.item .flag .green {
+    background-color: green;
+    padding: 4px 8px;
+}
+
+.product-details .brand {
+    color: gray;
+    font-size: 12px;
+}
+
+.product-details .type {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.product-details .price {
+    font-size: 14px;
+}
+
+.price .final-price {
+    color: red;
+    font-weight: bold;
+}
+
+.price .initial-price {
+    color: grey;
+    text-decoration:line-through;
+}
+
+/* -------- ITEM IMAGE --------  */
+.item.i1 {
+    background-image: url("../img/1.webp");
+}
+
+.item.i1:hover {
+    background-image: url("../img/1b.webp");
+}
+
+.item.i2 {
+    background-image: url("../img/2.webp");
+}
+
+.item.i2:hover {
+    background-image: url("../img/2b.webp");
+}
+
+.item.i3 {
+    background-image: url("../img/3.webp");
+}
+
+.item.i3:hover {
+    background-image: url("../img/3b.webp");
+}
+
+.item.i4 {
+    background-image: url("../img/4.webp");
+}
+
+.item.i4:hover {
+    background-image: url("../img/4b.webp");
+}
+
+.item.i5 {
+    background-image: url("../img/5.webp");
+}
+
+.item.i5:hover {
+    background-image: url("../img/5b.webp");
+}
+
+.item.i6 {
+    background-image: url("../img/6.webp");
+}
+
+.item.i6:hover {
+    background-image: url("../img/6b.webp");
 }
