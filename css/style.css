@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    font-family: "Helvetica", Sans-Serif;
+}
+
 /* --------- HEADER ------------ */
 header {
     width: 100%;
@@ -171,4 +175,35 @@ main.items-container .item-col {
 
 .item.i6:hover {
     background-image: url("../img/6b.webp");
+}
+
+/* ------- FOOTER --------- */
+footer {
+    background-color: #1a1a1b;
+    color: white;
+    padding: 40px 0;
+}
+
+.infobox h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.infobox a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    margin-right: 10px;
+}
+
+.social h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.social i {
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
 }
