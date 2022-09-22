@@ -39,6 +39,7 @@ header nav a:hover {
 
 header .logo img {
     width: 150px;
+    cursor: pointer;
 }
 
 header .h-icon {
@@ -53,8 +54,7 @@ header .h-icon i {
 /* ------- MAIN ------- */
 
 main.items-container {
-    padding: 200px 10px;
-    display: flex;
+    padding: 200px 20px;
     flex-wrap: wrap;
     gap: 10px;
     row-gap: 40px;
@@ -181,7 +181,7 @@ main.items-container .item-col {
 footer {
     background-color: #1a1a1b;
     color: white;
-    padding: 40px 0;
+    padding: 40px 10px;
 }
 
 .infobox h2 {
@@ -195,6 +195,10 @@ footer {
     font-size: 14px;
     font-weight: 300;
     margin-right: 10px;
+}
+
+.infobox a:hover {
+    text-decoration: underline;
 }
 
 .social h3 {
